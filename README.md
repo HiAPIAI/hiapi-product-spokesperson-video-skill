@@ -1,5 +1,9 @@
 # HiAPI Product Spokesperson Video Skill
 
+> Migration note: this repository remains a compatibility installer for the
+> unified [`hiapi-product-video-skills`](https://github.com/HiAPIAI/hiapi-product-video-skills)
+> monorepo. The historical `npx github:` command and install folder are kept.
+
 Generate short product spokesperson, brand introduction, synthetic presenter, and authorized talking-head advertising videos through [HiAPI](https://www.hiapi.ai).
 
 [Get API Key](https://www.hiapi.ai/en/register) | [Pricing](https://www.hiapi.ai/en/pricing) | [HiAPI Docs](https://docs.hiapi.ai) | [All HiAPI Skills](https://github.com/HiAPIAI/hiapi-skills)

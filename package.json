@@ -10,10 +10,11 @@
     "url": "git+https://github.com/HiAPIAI/hiapi-product-spokesperson-video-skill.git"
   },
   "bin": {
-    "hiapi-product-spokesperson-video-skill": "./scripts/install.mjs"
+    "hiapi-product-spokesperson-video-skill": "./scripts/install-compat.mjs"
   },
   "scripts": {
-    "test": "node --test tests/cli.test.mjs"
+    "test": "node --test tests/*.test.mjs",
+    "compatibility:test": "node --test tests/compatibility.test.mjs"
   },
   "keywords": [
     "hiapi",
